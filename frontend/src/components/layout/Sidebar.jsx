@@ -56,7 +56,7 @@ const Sidebar = () => {
     <div className="hidden lg:flex lg:flex-shrink-0 lg:w-64 lg:flex-col lg:fixed lg:inset-y-0">
       <div className="flex flex-col flex-grow bg-gradient-to-b from-blue-800 via-indigo-800 to-indigo-900 overflow-y-auto">
         <div className="flex items-center flex-shrink-0 px-4 h-16">
-          <h1 className="text-2xl font-bold text-white tracking-wide">Minor Courses</h1>
+          <h1 className="text-2xl font-bold text-white tracking-wide">MicroCourse</h1>
         </div>
         <div className="mt-5 flex-1 flex flex-col">
           <nav className="flex-1 px-2 pb-4 space-y-1">

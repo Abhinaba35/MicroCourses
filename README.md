@@ -5,7 +5,7 @@ A comprehensive web application for managing minor courses, student enrollments,
 ## Project Structure
 
 ```
-minorcourses/
+microcourse/
 ├── backend/          # Node.js/Express backend
 ├── frontend/         # React frontend
 └── README.md         # This file

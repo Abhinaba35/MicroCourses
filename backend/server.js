@@ -47,7 +47,7 @@ app.use('*', (req, res) => {
 });
 
 // Database connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/minorcourses', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/microcourse', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

@@ -83,7 +83,7 @@ A RESTful API for managing minor courses, student enrollments, and user authenti
    
    Update the `.env` file with your configuration:
    ```env
-   MONGODB_URI=mongodb://localhost:27017/minorcourses
+   MONGODB_URI=mongodb://localhost:27017/microcourse
    JWT_SECRET=your_jwt_secret_key_here
    JWT_EXPIRE=7d
    PORT=5000

@@ -73,7 +73,7 @@ const Landing = () => {
 
         <div className="w-full max-w-6xl mx-auto rounded-3xl bg-white/60 backdrop-blur-md shadow-2xl border border-indigo-200 p-8 md:p-16 flex flex-col items-center">
           <h1 className="text-5xl md:text-6xl font-extrabold text-indigo-900 mb-4 drop-shadow-lg text-center tracking-tight">
-            Welcome to MinorCourses{" "}
+            Welcome to MicroCourse{" "}
             <span className="align-middle">🎓</span>
           </h1>
           <p className="text-indigo-800 mb-4 text-center text-xl md:text-2xl font-medium max-w-3xl">
@@ -125,7 +125,7 @@ const Landing = () => {
           {/* Why Choose Us Section */}
           <div className="w-full max-w-5xl mx-auto px-4 mt-10">
             <h2 className="text-3xl md:text-4xl font-bold text-indigo-900 mb-4 text-center">
-              Why Choose MinorCourses?
+              Why Choose MicroCourse?
             </h2>
             <p className="text-indigo-800 text-center mb-8 max-w-3xl mx-auto text-lg">
               We believe education should be accessible, engaging, and rewarding. Our platform bridges the gap between teachers and students with a streamlined experience that keeps learning exciting and measurable.
@@ -163,7 +163,7 @@ const Landing = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="bg-white/90 p-8 rounded-2xl shadow-md hover:shadow-xl transition border border-indigo-100">
                 <p className="italic text-indigo-800 mb-3 text-lg">
-                  “MinorCourses helped me manage multiple courses with ease and track my learning progress like never before!”
+                  “MicroCourse helped me manage multiple courses with ease and track my learning progress like never before!”
                 </p>
                 <p className="text-base font-semibold text-indigo-900">
                   — Aditi Sharma, B.Tech Student
@@ -183,7 +183,7 @@ const Landing = () => {
           {/* Footer */}
           <div className="mt-20 text-xs text-indigo-400 text-center w-full">
             <span>
-              © {new Date().getFullYear()} MinorCourses — Empowering Education, One Course at a Time.
+              © {new Date().getFullYear()} MicroCourse — Empowering Education, One Course at a Time.
             </span>
           </div>
         </div>
