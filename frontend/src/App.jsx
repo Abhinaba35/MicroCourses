@@ -19,6 +19,7 @@ import Profile from './pages/profile/Profile';
 import Users from './pages/users/Users';
 import UserDetail from './pages/users/UserDetail';
 import Landing from './pages/Landing';
+import AIHelperPage from './pages/AIHelperPage';
 
 // Lazy load CreateInstructor
 const CreateInstructor = lazy(() => import('./pages/users/CreateInstructor'));
@@ -223,6 +224,18 @@ function App() {
                   <Suspense fallback={<LoadingSpinner />}>
                     <CreateInstructor />
                   </Suspense>
+                </MainLayout>
+              </ProtectedRoute>
+            } 
+          />
+
+          {/* AI Helper Route */}
+          <Route 
+            path="/ai-helper" 
+            element={
+              <ProtectedRoute>
+                <MainLayout>
+                  <AIHelperPage />
                 </MainLayout>
               </ProtectedRoute>
             } 

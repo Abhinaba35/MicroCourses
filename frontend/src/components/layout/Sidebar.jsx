@@ -46,6 +46,12 @@ const Sidebar = () => {
       icon: UserIcon,
       roles: ['admin'],
     },
+    {
+      name: 'AI Helper',
+      href: '/ai-helper',
+      icon: CogIcon,
+      roles: ['student', 'instructor', 'admin'],
+    },
   ];
 
   const filteredNavigation = navigation.filter(item => 
